@@ -4,7 +4,7 @@ confirm("I am ready to play!");
 
 var age = prompt("What's your age");
 
-if(age < 13)
+if(age < 12)
 {
     console.log("You are allowed to play, but I dont take responsibility.")
 }
@@ -14,19 +14,19 @@ else
 }
    
    
- console.log("You are at a Justin Bieber concert, and you hear this lyric 'Lace my shoes off, start racing.'")
+ console.log("You are at a  concert, and you hear this lyric 'Lace my shoes off, start racing.'")
  
- console.log("Suddenly, Bieber stops and says, 'Who wants to race me?'")
+ console.log("Suddenly, the singer stops and says, 'Who wants to race me?'")
  
- var userAnswer = prompt("Do you want to race Bieber on stage?");
+ var userAnswer = prompt("Do you want to race the singer on stage?");
  
  if(userAnswer = "yes")
  {
-     console.log("You and Bieber start racing. It's neck and neck! You win by a shoelace!")
+     console.log("You and the singer start racing. It's neck and neck! You win by a shoelace!")
 }
 else
 {
-    console.log("Oh no! Bieber shakes his head and sings 'I set a pace, so I can race without pacing.'")
+    console.log("Oh no! The singer shakes his head and sings 'I set a pace, so I can race without pacing.'")
 }
   
 var feedback = prompt("Please rate this game 1 out of 10.")
